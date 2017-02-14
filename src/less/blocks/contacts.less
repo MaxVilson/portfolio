@@ -1,0 +1,45 @@
+.contacts {
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+.contacts__photo {
+	width: 34%;
+	margin: 0;
+}
+.contacts__photo img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+.contacts__description {
+	width: 50%;
+	margin-left: 40px;
+}
+.contacts__title {
+	font-size: 2.5em;
+  font-weight: 400;
+  margin: 20px 0 0;
+}
+.contacts__profession {
+	font-size: 1.3em;
+  font-weight: 300;
+  margin-top: 10px;
+}
+.contacts__age {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+//Media querys
+
+@media (max-width: 768px) {
+
+	.contacts__photo {
+		width: 100%;
+	}
+	.contacts__description {
+		width: 100%;
+		max-width: 100%;
+	}
+}

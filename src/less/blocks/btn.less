@@ -1,0 +1,41 @@
+.btn {
+	padding-bottom: 5px;
+	padding-left: 2px;
+	padding-right: 2px;
+	margin-left: 40px;
+	font-size: 18px;
+	color: #fff;
+	text-decoration: none;
+  border-bottom: 1px solid #fff;
+  transition: all .3s ease;
+
+  &:first-child {
+  	margin-left: 0;
+  }
+
+  &:hover {
+  	padding: 15px 25px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+  }
+
+  &--grey {
+  	color: #222;
+  	border-bottom: 1px solid @grey;
+
+  	&:hover {
+  		border: 1px solid @grey;
+  	}
+  }
+
+  &--active {
+  	border: none;
+
+		&:hover {
+			padding-bottom: 5px;
+			padding-left: 2px;
+			padding-right: 2px;
+			border: none;
+		}
+  }
+}
