@@ -416,6 +416,13 @@ li
         margin-top: 40px;
     }
 
+    .btn:hover
+    {
+        padding: 0;
+
+        border: none;
+    }
+
     .main-header__name
     {
         width: 100%;
