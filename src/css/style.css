@@ -425,6 +425,11 @@ li
         border-bottom: 1px solid #222;
     }
 
+    .btn--grey:hover
+    {
+        border-bottom: 1px solid #222;
+    }
+
     .btn--active
     {
         border: none;
