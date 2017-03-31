@@ -422,7 +422,9 @@ li
         padding-bottom: 5px;
         padding-left: 2px;
 
+        border: none;
         border-bottom: 1px solid #222;
+        border-radius: 0;
     }
 
     .btn--grey:hover
