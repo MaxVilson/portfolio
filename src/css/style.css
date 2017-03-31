@@ -418,10 +418,9 @@ li
 
     .btn:hover
     {
-        padding-right: 2px;
-        padding-bottom: 5px;
-        padding-left: 2px;
+        padding: 0;
 
+        border: none;
         border-bottom: 1px solid #222;
     }
 
