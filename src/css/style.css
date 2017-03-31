@@ -7,6 +7,11 @@ body
     height: 100%;
 }
 
+li
+{
+    line-height: 30px;
+}
+
 #particles-js
 {
     position: fixed;
