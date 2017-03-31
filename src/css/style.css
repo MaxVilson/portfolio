@@ -418,10 +418,11 @@ li
 
     .btn:hover
     {
-        padding: 0;
+        padding-right: 2px;
+        padding-bottom: 5px;
+        padding-left: 2px;
 
-        border: none;
-        border-bottom: 1px solid #222;
+        border: 1px solid #222;
     }
 
     .main-header__name
