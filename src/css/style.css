@@ -418,7 +418,9 @@ li
 
     .btn:hover
     {
-        padding: 0;
+        padding-right: 2px;
+        padding-bottom: 5px;
+        padding-left: 2px;
 
         border: none;
     }
